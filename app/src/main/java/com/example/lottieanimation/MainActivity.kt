@@ -18,12 +18,12 @@ class MainActivity : AppCompatActivity() {
         val startBtn = findViewById<Button>(R.id.btnStart)
         val stopBtn = findViewById<Button>(R.id.btnStop)
 
-        // On the click of startBtn
+
         startBtn.setOnClickListener {
             animationView.playAnimation()
         }
 
-        // On the click of stopBtn
+
         stopBtn.setOnClickListener {
             animationView.pauseAnimation()
         }
